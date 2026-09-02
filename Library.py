@@ -16,9 +16,9 @@ max_count = 0
 for i in range(n):
  count = 0
  for j in range(n):
- if borrow[i] == borrow[j]:
- count += 1
- if count > max_count:
+   if borrow[i] == borrow[j]:
+    count += 1
+  if count > max_count:
  max_count = count
  mode = borrow[i]
 print("Mode:", mode)
